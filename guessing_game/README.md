@@ -2,7 +2,7 @@
 [Source](https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html)  
 
 This program creates a prompt and takes an integer.  
-Then compares the entered int to a random integer.  
+Then compares the entered integer to a random integer.  
 If the two number match you win.
 
 ## Attained Knowledge
