@@ -11,3 +11,4 @@ Cargo is a dependancy and build tool for rust.
 * `cargo build` will create a debug executable with the projects name in the `target/debug/` directory.
 * `cargo run` will build and run the debug exe in one command.
 * `cargo check` will statically analyse your code to check for compilation errors.
+* Using the `--release` flag with the `cargo build` command will generate optimized executables and save them to the `target/release` directory. 
