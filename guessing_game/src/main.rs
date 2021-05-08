@@ -6,7 +6,7 @@ use rand::Rng;
 fn main() {
     println!("Guess a number from 1 to 10!");
     
-    let secret_number = rand::thread_rng().gen_range(1..=10);
+    let secret_number = rand::thread_rng().gen_range(1..=100);
 
     // This flag will remove the line below when compiled for release mode 
     // this can probably be better accomplished with a logging crate
