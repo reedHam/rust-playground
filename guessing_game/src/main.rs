@@ -4,7 +4,7 @@ use std::cmp::Ordering;
 use rand::Rng;
 
 fn main() {
-    println!("Guess your number!");
+    println!("Guess a number from 1 to 10!");
     
     let secret_number = rand::thread_rng().gen_range(1..=10);
 
