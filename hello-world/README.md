@@ -5,3 +5,7 @@ Steps to run a basic rust program.
 1. Compile using the `rustc` command included in the rust installation.
 2. run `./main` in the terminal.
 
+## Attained Knowledge
+* rust is pre compiled language
+* rust has macros
+* the main function is the entry point for rust programs
