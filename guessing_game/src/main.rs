@@ -8,6 +8,9 @@ fn main() {
     
     let secret_number = rand::thread_rng().gen_range(1..=10);
 
+    // This flag will remove the line below when compiled for release mode 
+    // this can probably be better accomplished with a logging crate
+    #[cfg(debug_assertions)]
     println!("The secret number is: {}", secret_number);
 
     loop {
