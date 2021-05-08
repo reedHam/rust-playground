@@ -24,8 +24,15 @@ fn main() {
             .expect("Failed to read line.");
 
         // Due to the new line captured by read line guess is a string 
-        // to convert guess into a number we trim and parse it while specifying the new data type u32
-        let guess: u32 = guess.trim().parse().expect("Please type a number.");
+        // To convert guess into a number we trim and parse it while specifying the new data type u32
+        // By using match we can add code branches for the returned Result type
+        let guess: u32 = match guess.trim().parse() {
+            Ok(num) => num,
+            Err(_) => {
+                println!("Invalid Input.");
+                continue
+            },
+        };
 
         // String templates are possible with println 
         // Placeholders are replaced in left to right order with more than one variable
