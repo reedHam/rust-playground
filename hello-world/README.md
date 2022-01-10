@@ -7,6 +7,6 @@
 2. run `./main` in the terminal.
 
 ## Attained Knowledge
-* Rust is pre compiled language
+* Rust is a pre compiled language
 * Rust has macros
 * The main function is the entry point for Rust programs
